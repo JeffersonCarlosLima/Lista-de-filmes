@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+#PesquisaFilmes {
+    background-image: url('../imagens/outline_search_black_24dp.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 60%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    margin-left: 24px;
+    text-align: center;
+}
+
+#ListaFilmes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    margin-left: 24px;
+}
+
+#ListaFilmes li {
+    border: 0px;
+    margin: 16px;
+    /* Prevent double borders */
+    padding: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    margin: 16px;
+    text-align: justify;
+}
+
+button {
+    background-color: #4CAF50;
+    padding: 8px 32px 8px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 0px;
+    margin: 8px;
+}
+
+a button:hover {
+    background-color: rgb(1, 129, 29);
+    border-radius: 24px;
+}
+
+img:hover {
+    width: 200px;
+    animation-delay: 900ms;
+}
+
+h4 {
+    padding-top: 16px;
+}
+
+a {
+    padding-top: 16px;
+}
+
+@media (min-width: 768px) {
+    button {
+        margin-top: 16px;
+        margin-right: 16px;
+    }
+}
